@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <style>
+        h1 { 
+            color: rgb(0, 0, 0);
+            text-align: center;
+            font-size: 50px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-bottom: 70px;
+        }
+        p {
+            font-size: 20px;
+            font-family:Arial, Helvetica, sans-serif;
+            width: 500px;
+            background-color: white;
+        }
+        body {
+            background-image: url("surfingwallpaper3.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        nav{
+            text-align: center;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        a:link, a:visited {
+            background-color: #000000;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        a:hover {
+            color: grey
+
+        }
+        form{
+            color :white;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href = "./home.html">Home</a>
+        <a href = "./aboutme.html">About Me</a>
+        <a href = "./workandskills.html">Work and Skills</a>
+        <a href = "./portfolio.html">Portfolio</a>
+        <a href = "./testimonials.html">Testimonials</a>
+        <a href = "./contact.html">Contact</a>
+    </nav>
+<h1>Contact</h1>
+<p>If you would like to contact me please leave your First and Last name, Phone number(XXXXXXXXXX), your email, or both.</p>
+<form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" ><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="phone-number">Phone Number:</label><br>
+    <input type="number" id="phone-number" name="phone-number"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+
+
+</html>
